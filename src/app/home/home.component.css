@@ -1,0 +1,12 @@
+section.main{
+    background-color: #021526;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    color: #6EACDA;
+    font-size: 2rem;
+}

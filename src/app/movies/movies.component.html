@@ -1,0 +1,11 @@
+<h1>Movies Page</h1>
+<section>
+    <div class="container">
+        @for (item of data; track $index) {
+            <div class="card">
+                <app-movie-card [title]="data[$index].original_title" [poster_path]="data[$index].poster_path" [original_language]="data[$index].original_language"/>
+            </div>
+        }
+    </div>
+</section>
+    
